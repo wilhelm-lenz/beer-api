@@ -1,0 +1,16 @@
+[
+  {
+    "_id": 0,
+    "img": "../../public/all-beers.png",
+    "title": "All Beers",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis. ",
+    "link": "/all-products"
+  },
+  {
+    "id": 1,
+    "img": "../../public/randome-beers.png",
+    "title": "Random Beer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis. ",
+    "link": "/random-product"
+  }
+]
