@@ -1,4 +1,4 @@
-.main {
+.home-main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 5rem;
@@ -25,11 +25,14 @@
   position: relative;
   border-radius: 1.6rem;
   filter: grayscale(1);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .card-beers-anchor-link::after {
   content: "";
-  background-color: rgb(33, 37, 41, 0.8);
+  background-color: rgba(33, 37, 41, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -46,6 +49,7 @@
   font-size: 5.2rem;
   padding-block: 2rem;
   border-radius: 0 0 1.6rem 1.6rem;
+  font-family: "PlayfairDisplay-Bold";
 }
 
 .card-beers-api-description {

@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "PlayfairDisplay-Bold";
+  src: url("./assets/fonts/PlayfairDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Medium";
+  src: url("./assets/fonts/PlayfairDisplay-Medium.ttf");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  src: url("./assets/fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("./assets/fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Medium";
+  src: url("./assets/fonts/OpenSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -12,11 +42,11 @@ html {
 }
 
 body {
-  font-family: "Robote-Regular";
+  font-family: "OpenSans-Regular";
   line-height: 1;
   font-weight: 400;
-  color: #555;
   font-size: 1.6rem;
+  color: #212529;
   background-color: #212529;
 }
 
@@ -26,13 +56,17 @@ body {
   margin: 0 auto;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
 a {
   text-decoration: none;
   color: #fff;
+}
+
+svg {
+  fill: #fab005;
+  font-size: 5.4rem;
+}
+
+svg:hover {
+  fill: #fab00580;
+  font-size: 5.4rem;
 }

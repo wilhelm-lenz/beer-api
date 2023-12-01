@@ -1,2 +1,9 @@
 .section-all-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-auto-rows: 1fr;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6rem 2rem;
+  margin-top: 4rem;
 }

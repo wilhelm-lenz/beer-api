@@ -15,13 +15,13 @@ const Home = () => {
   }, []);
 
   return (
-    <main className="main container">
+    <main className="home-main container">
       {apiCardsInfos?.map((apiCardInfo, index) => {
         const { img, title, description, link } = apiCardInfo;
         return (
           <article key={uuidv4()} className="card-beers">
             <Link
-              to={index === 0 ? link : link + `/${beerId}`}
+              to={index === 0 ? link : link + `/random-product/${beerId}`}
               className="card-beers-anchor-link"
             >
               <img
