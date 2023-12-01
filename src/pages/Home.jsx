@@ -25,7 +25,7 @@ const Home = () => {
               className="card-beers-anchor-link"
             >
               <img
-                src={img}
+                src="../../public/images/all-beers.png"
                 alt={"Picture of " + title}
                 className="card-beers-api-img"
               />
