@@ -1,1 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Robote-Regular";
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  font-size: 1.6rem;
+  background-color: #212529;
+}
+
+.container {
+  max-width: 144rem;
+  padding-inline: 5%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}

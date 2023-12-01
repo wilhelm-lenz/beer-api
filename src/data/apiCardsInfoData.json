@@ -7,10 +7,10 @@
     "link": "/all-products"
   },
   {
-    "id": 1,
+    "_id": 1,
     "img": "../../public/images/randome-beers.png",
     "title": "Random Beer",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis. ",
-    "link": "/random-product"
+    "link": "/product-detail"
   }
 ]
