@@ -46,12 +46,16 @@ const ProductDetails = () => {
 
   return (
     <section className="section-product-detail container">
-      <Link
-        to={locationName === "random-product" ? "/" : "/all-products"}
-        className="back-home"
-      >
-        <BackHome />
-      </Link>
+      <div className="links-wrapper">
+        <Link to={locationName === "random-product" ? "/" : "/all-products"}>
+          <BackHome />
+        </Link>
+        {locationName !== "random-product" ? (
+          <Link to="/" className="back-home">
+            Back Home
+          </Link>
+        ) : null}
+      </div>
       <article className="product-details">
         <img
           src={image_url}
