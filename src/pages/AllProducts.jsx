@@ -6,7 +6,7 @@ import BackHome from "../components/svg/BackHome";
 const AllProducts = () => {
   return (
     <main className="all-products-main container" id="top">
-      <Link to="/" className="back-home">
+      <Link to="/">
         <BackHome />
       </Link>
       <CardList />
