@@ -1,14 +1,14 @@
 [
   {
     "_id": 0,
-    "img": "../public/images/all-beers.png",
+    "img": "/images/all-beers.png",
     "title": "All Beers",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis. ",
     "link": "/all-products"
   },
   {
     "_id": 1,
-    "img": "../public/images/randome-beers.png",
+    "img": "/images/randome-beers.png",
     "title": "Random Beer",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis. ",
     "link": "/product-detail"
